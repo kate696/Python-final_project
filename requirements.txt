@@ -1,0 +1,15 @@
+Installing necessary packages:
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score,confusion_matrix,f1_score,classification_report
+
+from sklearn.ensemble import RandomForestClassifier # importing Random Forest
+
+
+import warnings
+warnings.filterwarnings('ignore')
